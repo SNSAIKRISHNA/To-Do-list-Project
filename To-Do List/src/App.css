@@ -1,0 +1,38 @@
+
+h1{
+  font-size: 50px;
+  text-align: center;
+}
+
+div.container{
+   display: flex;
+   color: rgb(9, 9, 9);
+   background-color: rgb(241, 137, 11);
+   justify-content: center;
+   border-radius: 10px;
+   padding: auto;
+    gap: 10px;
+}
+div.container1{
+    color: rgb(9, 9, 9);
+    align-items: center;
+    border-radius: 10px;
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+    padding: auto;
+    margin-top: 100px;
+}
+.container1 input{
+  width: 500px;
+  height: 35px;
+  border: solid 1px black;
+  border-radius: 5px;
+  text-align: center;
+  text-size-adjust: 50px;
+}
+
+.container1 button{
+   width: 60px;
+   height: 35px;
+}
