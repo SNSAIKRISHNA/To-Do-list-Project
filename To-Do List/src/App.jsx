@@ -16,8 +16,6 @@ function App() {
       const value= task.value
       const taskList= document.getElementByClassName ('task-list')
       taskList.innerHTML = `<li>${value}</li>`
-
-      
     </>
   )
 }
