@@ -12,6 +12,11 @@ function App() {
       <input type="text" placeholder='Add a new task' />
       <button>Add</button><button>Delete</button>
      </div>
+       const task= document.getElementByTagName ('input')
+      const value= task.value
+      const taskList= document.getElementByClassName ('task-list')
+      taskList.innerHTML = `<li>${value}</li>`
+
       
     </>
   )
